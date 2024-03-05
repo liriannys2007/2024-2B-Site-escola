@@ -2,6 +2,15 @@
    margin:0;
    padding: 0; 
 }
+
+:root{
+  --azul: #003049;
+  --vermelho:#D62828;
+  --laranja:#F77F00;
+  --amarelo:#FCBF49;
+}
+
+
 *cabecalho{
    border-color: rgb(21, 223, 213);
    color: blanchedalmond;
@@ -22,4 +31,25 @@
    color: white;
    margin-right: 1.5em;
    font-size: 1.5em;
+}
+
+.escola{
+  background-color: aliceblue;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:  32px 0;
+
+}
+
+
+.escola-texto-tiulo{
+   padding: 24px 0;
+
+}
+
+
+.escola-imagem{
+  width: 25%;
 }
