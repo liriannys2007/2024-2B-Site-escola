@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Truculenta:opsz,wdth@12..72,97.8&display=swap');
+
+
+
 *{
    margin:0;
    padding: 0; 
@@ -8,16 +12,20 @@
   --vermelho:#D62828;
   --laranja:#F77F00;
   --amarelo:#FCBF49;
+  --branco:var(--branco);
+  --preto:var(--preto);
+  --Fonte-texto:"truculenta",sans-serf;
+  --fonte-titulo"ojuju",sans-serf
 }
 
 
-*cabecalho{
-   border-color: rgb(21, 223, 213);
-   color: blanchedalmond;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding: 0 2em;
+.cabecalho{
+   background-color: var(--verde);
+   color blanchedalmond;
+   display flex;
+   align-items center;
+   justify-content space-between;
+   padding 0 2em;
  }
 
  .cabecalho-imagem{
@@ -34,7 +42,7 @@
 }
 
 .escola{
-  background-color: aliceblue;
+  background-color: var(--branco);
   color: black;
   display: flex;
   justify-content: center;
@@ -46,6 +54,7 @@
 
 .escola-texto-tiulo{
    padding: 24px 0;
+   font-family: var(--fonte-titulo);
 
 }
 
